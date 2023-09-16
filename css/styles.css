@@ -1,7 +1,7 @@
 /* head */
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -16,15 +16,16 @@ a {
 
 /* header */
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-.web-logo {
   color: #4d5ae5;
+}
+.studio-logo {
+  color: #2e2f42;
 }
 .nav-points {
   font-size: 16px;
@@ -32,6 +33,7 @@ a {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.nav-points:active,
 .nav-points:hover {
   color: #404bbf;
   text-decoration: underline;
@@ -62,11 +64,6 @@ a {
 }
 .order-service-btn {
   cursor: pointer;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
 
