@@ -37,7 +37,8 @@ a {
   letter-spacing: 0.32px;
 }
 .nav-points:active,
-.nav-points:hover {
+.nav-points:hover,
+.nav-points:focus {
   color: #404bbf;
   text-decoration: underline;
 }
